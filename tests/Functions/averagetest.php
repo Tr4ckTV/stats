@@ -1,7 +1,10 @@
 <?php
+use Theogreg\Stats\Functions\Average;
 
-use Stats\Functions\average;
+test('AverageTest', function () {
 
-$list = [10, 15, 14, 16, 20];
+    $list = [10, 15, 14, 16, 20];
 
-expect(average::calculate($list))->toBe(15.0);
+    expect(Average::calculate($list))->toBe(15.0);
+});
+?>

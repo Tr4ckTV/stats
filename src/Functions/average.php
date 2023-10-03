@@ -1,8 +1,8 @@
 <?php
 
-namespace Stats\Functions;
+namespace Theogreg\Stats\Functions;
 
-class average
+class Average
 {
     public static function calculate(array $numbers): float
     {
