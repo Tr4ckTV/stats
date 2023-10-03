@@ -2,7 +2,7 @@
 
 namespace Stats\Functions;
 
-class Average
+class average
 {
     public static function calculate(array $numbers): float
     {
