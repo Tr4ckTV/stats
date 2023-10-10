@@ -8,7 +8,9 @@
             "Theogreg\\Stats\\": "src/"
         }
     },
-    "scripts": { "test": "vendor/bin/pest" },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
     "require-dev": {
         "pestphp/pest": "^2.20"
     },
@@ -16,5 +18,5 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
-    }
+        }
 }
